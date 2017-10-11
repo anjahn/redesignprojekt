@@ -1,0 +1,51 @@
+/********** HEADER ****************/
+
+header {
+
+}
+
+
+/************ BODY ***************/
+.marg_wrapper {
+
+}
+
+
+body {
+    background-color: snow;
+}
+
+.sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    background-color: lightgrey;
+
+
+}
+
+.column {
+    background-color: cornflowerblue;
+    float: left;
+    padding: 1em;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+.img_column {
+     background-color: red;
+    padding: 1em;
+    float: left;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+/************** FOOTER ***************/
+
+footer {
+
+}
